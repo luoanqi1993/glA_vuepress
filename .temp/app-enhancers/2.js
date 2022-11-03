@@ -1,1 +1,1 @@
-export { default } from "d:\\Users\\Administrator\\Desktop\\gl_vuePress\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\enhanceApp.js"
+export { default } from "d:\\Users\\Administrator\\Desktop\\glA_vuepress\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\enhanceApp.js"
