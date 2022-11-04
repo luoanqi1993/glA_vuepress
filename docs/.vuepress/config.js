@@ -1,5 +1,5 @@
 module.exports = {
-  base:'/glA_vuepress/',
+  // base:'/',
   title: 'Hello VuePress',
   description: 'Just playing around',
   themeConfig: {
