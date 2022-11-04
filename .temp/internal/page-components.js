@@ -3,18 +3,18 @@
  */
 export default {
   "v-34f1c630": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\README.md"),
+  "v-434c59d3": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\config\\README.md"),
   "v-d3e7df44": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\guide\\test001.md"),
   "v-32e5d1c3": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\guide\\README.md"),
-  "v-434c59d3": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\config\\README.md"),
-  "v-3c1afb84": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\guide\\test002.md"),
   "v-35ab1db3": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\plugin\\README.md"),
   "v-2dd8f41e": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\guide\\test003.md"),
-  "v-79bf65fe": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\guide\\test004.md"),
+  "v-0f7d7c50": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\plugin\\plugin03.md"),
   "v-271212d0": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\plugin\\plugin01.md"),
   "v-725c1c38": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\plugin\\plugin02.md"),
   "v-7e266778": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\plugin\\plugin04.md"),
-  "v-0f7d7c50": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\plugin\\plugin03.md"),
   "v-15d80969": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\theme\\README.md"),
   "v-3910bd44": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\theme\\theme01.md"),
-  "v-2f5e133e": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\theme\\theme02.md") 
+  "v-2f5e133e": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\theme\\theme02.md"),
+  "v-3c1afb84": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\guide\\test002.md"),
+  "v-79bf65fe": () => import("d:\\Users\\Administrator\\Desktop\\glA_vuepress\\docs\\guide\\test004.md") 
 }

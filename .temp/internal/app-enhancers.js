@@ -1,6 +1,6 @@
 import m0 from "d:\\Users\\Administrator\\Desktop\\glA_vuepress\\.temp\\app-enhancers\\0.js"
 import m1 from "d:\\Users\\Administrator\\Desktop\\glA_vuepress\\.temp\\app-enhancers\\data-block.js"
-import m2 from "d:\\Users\\Administrator\\Desktop\\glA_vuepress\\.temp\\app-enhancers\\global-components-13.js"
+import m2 from "d:\\Users\\Administrator\\Desktop\\glA_vuepress\\.temp\\app-enhancers\\global-components-3.js"
 import m3 from "d:\\Users\\Administrator\\Desktop\\glA_vuepress\\.temp\\app-enhancers\\1.js"
 import m4 from "d:\\Users\\Administrator\\Desktop\\glA_vuepress\\.temp\\app-enhancers\\2.js"
 

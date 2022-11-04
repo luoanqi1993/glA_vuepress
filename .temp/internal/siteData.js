@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "Hello VuePress",
   "description": "Just playing around",
-  "base": "/glA_vuepress/",
+  "base": "/gla-vuepress/",
   "headTags": [],
   "pages": [
     {
@@ -39,63 +39,6 @@ export const siteData = {
           "level": 3,
           "title": "像数 1, 2, 3 一样容易",
           "slug": "像数-1-2-3-一样容易"
-        }
-      ],
-      "lastUpdated": "11/3/2022, 11:59:58 AM",
-      "lastUpdatedTimestamp": 1667447998000
-    },
-    {
-      "title": "快速上手",
-      "frontmatter": {},
-      "regularPath": "/guide/test001.html",
-      "relativePath": "guide/test001.md",
-      "key": "v-d3e7df44",
-      "path": "/guide/test001.html",
-      "lastUpdated": "11/3/2022, 11:59:58 AM",
-      "lastUpdatedTimestamp": 1667447998000
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-32e5d1c3",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "它是如何工作的？",
-          "slug": "它是如何工作的"
-        },
-        {
-          "level": 2,
-          "title": "Features",
-          "slug": "features"
-        },
-        {
-          "level": 2,
-          "title": "为什么不是...?",
-          "slug": "为什么不是"
-        },
-        {
-          "level": 3,
-          "title": "Nuxt",
-          "slug": "nuxt"
-        },
-        {
-          "level": 3,
-          "title": "Docsify / Docute",
-          "slug": "docsify-docute"
-        },
-        {
-          "level": 3,
-          "title": "Hexo",
-          "slug": "hexo"
-        },
-        {
-          "level": 3,
-          "title": "GitBook",
-          "slug": "gitbook"
         }
       ],
       "lastUpdated": "11/3/2022, 11:59:58 AM",
@@ -202,17 +145,57 @@ export const siteData = {
       "lastUpdatedTimestamp": 1667447998000
     },
     {
-      "title": "目录结构",
+      "title": "快速上手",
       "frontmatter": {},
-      "regularPath": "/guide/test002.html",
-      "relativePath": "guide/test002.md",
-      "key": "v-3c1afb84",
-      "path": "/guide/test002.html",
+      "regularPath": "/guide/test001.html",
+      "relativePath": "guide/test001.md",
+      "key": "v-d3e7df44",
+      "path": "/guide/test001.html",
+      "lastUpdated": "11/3/2022, 11:59:58 AM",
+      "lastUpdatedTimestamp": 1667447998000
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-32e5d1c3",
+      "path": "/guide/",
       "headers": [
         {
           "level": 2,
-          "title": "默认的页面路由",
-          "slug": "默认的页面路由"
+          "title": "它是如何工作的？",
+          "slug": "它是如何工作的"
+        },
+        {
+          "level": 2,
+          "title": "Features",
+          "slug": "features"
+        },
+        {
+          "level": 2,
+          "title": "为什么不是...?",
+          "slug": "为什么不是"
+        },
+        {
+          "level": 3,
+          "title": "Nuxt",
+          "slug": "nuxt"
+        },
+        {
+          "level": 3,
+          "title": "Docsify / Docute",
+          "slug": "docsify-docute"
+        },
+        {
+          "level": 3,
+          "title": "Hexo",
+          "slug": "hexo"
+        },
+        {
+          "level": 3,
+          "title": "GitBook",
+          "slug": "gitbook"
         }
       ],
       "lastUpdated": "11/3/2022, 11:59:58 AM",
@@ -348,32 +331,20 @@ export const siteData = {
       "lastUpdatedTimestamp": 1667447998000
     },
     {
-      "title": "永久链接",
-      "frontmatter": {},
-      "regularPath": "/guide/test004.html",
-      "relativePath": "guide/test004.md",
-      "key": "v-79bf65fe",
-      "path": "/guide/test004.html",
+      "title": "active-header-links",
+      "frontmatter": {
+        "title": "active-header-links",
+        "metaTitle": "页面滚动时自动激活侧边栏链接的插件 | VuePress"
+      },
+      "regularPath": "/plugin/plugin03.html",
+      "relativePath": "plugin/plugin03.md",
+      "key": "v-0f7d7c50",
+      "path": "/plugin/plugin03.html",
       "headers": [
         {
           "level": 2,
-          "title": "背景",
-          "slug": "背景"
-        },
-        {
-          "level": 2,
-          "title": "永久链接",
-          "slug": "永久链接-2"
-        },
-        {
-          "level": 3,
-          "title": "配置永久链接",
-          "slug": "配置永久链接"
-        },
-        {
-          "level": 3,
-          "title": "模板变量",
-          "slug": "模板变量"
+          "title": "安装",
+          "slug": "安装"
         }
       ],
       "lastUpdated": "11/3/2022, 11:59:58 AM",
@@ -426,26 +397,6 @@ export const siteData = {
           "level": 2,
           "title": "使用",
           "slug": "使用"
-        }
-      ],
-      "lastUpdated": "11/3/2022, 11:59:58 AM",
-      "lastUpdatedTimestamp": 1667447998000
-    },
-    {
-      "title": "active-header-links",
-      "frontmatter": {
-        "title": "active-header-links",
-        "metaTitle": "页面滚动时自动激活侧边栏链接的插件 | VuePress"
-      },
-      "regularPath": "/plugin/plugin03.html",
-      "relativePath": "plugin/plugin03.md",
-      "key": "v-0f7d7c50",
-      "path": "/plugin/plugin03.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
         }
       ],
       "lastUpdated": "11/3/2022, 11:59:58 AM",
@@ -528,6 +479,55 @@ export const siteData = {
         }
       ],
       "excerpt": "<h1 id=\"开发主题\"><a class=\"header-anchor\" href=\"#开发主题\">#</a> 开发主题</h1>\n<p>想要书写一个主题，首先在你文档根目录创建一个 <code>.vuepress/theme</code> 目录，接着创建一个 <code>Layout.vue</code> 文件：</p>\n<p>::: vue\n.\n└─ .vuepress\n └─ <code>theme</code>\n     └─ Layout.vue\n:::</p>\n<p>到这里，就像开发一个普通的 Vue 应用一样。如何组织你的主题，这完全取决于你。</p>\n<h2 id=\"获取渲染内容\"><a class=\"header-anchor\" href=\"#获取渲染内容\">#</a> 获取渲染内容</h2>\n<p>当前的 <code>.md</code> 文件渲染的内容，可以作为一个独特的全局组件 <code>&lt;Content/&gt;</code> 来使用，你可能想要它显示在页面中的某个地方。一个最简单的主题，可以是一个唯一的 <code>Layout.vue</code> 组件，并包含以下内容：</p>\n<!--beforebegin--><div class=\"language-html extra-class\"><!--afterbegin--><pre v-pre class=\"language-html\"><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>theme-container<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>Content</span><span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p><strong>更多请阅读:</strong></p>\n<ul>\n<li><RouterLink to=\"/guide/markdown-slot.html\">Markdown 插槽</RouterLink></li>\n</ul>\n<h2 id=\"内容摘抄\"><a class=\"header-anchor\" href=\"#内容摘抄\">#</a> 内容摘抄</h2>\n<p>如果一个 markdown 文件中有一个 `</p>\n",
+      "lastUpdated": "11/3/2022, 11:59:58 AM",
+      "lastUpdatedTimestamp": 1667447998000
+    },
+    {
+      "title": "目录结构",
+      "frontmatter": {},
+      "regularPath": "/guide/test002.html",
+      "relativePath": "guide/test002.md",
+      "key": "v-3c1afb84",
+      "path": "/guide/test002.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "默认的页面路由",
+          "slug": "默认的页面路由"
+        }
+      ],
+      "lastUpdated": "11/3/2022, 11:59:58 AM",
+      "lastUpdatedTimestamp": 1667447998000
+    },
+    {
+      "title": "永久链接",
+      "frontmatter": {},
+      "regularPath": "/guide/test004.html",
+      "relativePath": "guide/test004.md",
+      "key": "v-79bf65fe",
+      "path": "/guide/test004.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "背景",
+          "slug": "背景"
+        },
+        {
+          "level": 2,
+          "title": "永久链接",
+          "slug": "永久链接-2"
+        },
+        {
+          "level": 3,
+          "title": "配置永久链接",
+          "slug": "配置永久链接"
+        },
+        {
+          "level": 3,
+          "title": "模板变量",
+          "slug": "模板变量"
+        }
+      ],
       "lastUpdated": "11/3/2022, 11:59:58 AM",
       "lastUpdatedTimestamp": 1667447998000
     }

@@ -21,6 +21,18 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-434c59d3",
+    path: "/config/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-434c59d3").then(next)
+    },
+  },
+  {
+    path: "/config/index.html",
+    redirect: "/config/"
+  },
+  {
     name: "v-d3e7df44",
     path: "/guide/test001.html",
     component: GlobalLayout,
@@ -39,26 +51,6 @@ export const routes = [
   {
     path: "/guide/index.html",
     redirect: "/guide/"
-  },
-  {
-    name: "v-434c59d3",
-    path: "/config/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-434c59d3").then(next)
-    },
-  },
-  {
-    path: "/config/index.html",
-    redirect: "/config/"
-  },
-  {
-    name: "v-3c1afb84",
-    path: "/guide/test002.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3c1afb84").then(next)
-    },
   },
   {
     name: "v-35ab1db3",
@@ -81,11 +73,11 @@ export const routes = [
     },
   },
   {
-    name: "v-79bf65fe",
-    path: "/guide/test004.html",
+    name: "v-0f7d7c50",
+    path: "/plugin/plugin03.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-79bf65fe").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0f7d7c50").then(next)
     },
   },
   {
@@ -110,14 +102,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7e266778").then(next)
-    },
-  },
-  {
-    name: "v-0f7d7c50",
-    path: "/plugin/plugin03.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0f7d7c50").then(next)
     },
   },
   {
@@ -146,6 +130,22 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2f5e133e").then(next)
+    },
+  },
+  {
+    name: "v-3c1afb84",
+    path: "/guide/test002.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3c1afb84").then(next)
+    },
+  },
+  {
+    name: "v-79bf65fe",
+    path: "/guide/test004.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-79bf65fe").then(next)
     },
   },
   {
